@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Galería | Mi Tienda</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">MiTienda<span>·DOM</span></div>
+      <div class="searchbox">
+        <input id="q" type="search" placeholder="Buscar productos…" />
+        <button id="clear">Limpiar</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="filters" aria-label="Filtros">
+        <h2>Filtros</h2>
+
+        <label class="filter">
+          <span>Vendedor</span>
+          <select id="seller">
+            <option value="">Todos</option>
+          </select>
+        </label>
+
+        <label class="filter">
+          <span>Estrellas mín.</span>
+          <select id="stars">
+            <option value="">Cualquiera</option>
+            <option value="5">5 ★</option>
+            <option value="4">4 ★</option>
+            <option value="3">3 ★</option>
+            <option value="2">2 ★</option>
+            <option value="1">1 ★</option>
+          </select>
+        </label>
+
+        <label class="filter">
+          <span>Orden precio</span>
+          <select id="sort">
+            <option value="">Sin ordenar</option>
+            <option value="asc">Más barato</option>
+            <option value="desc">Más caro</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="catalog" aria-live="polite" aria-busy="false">
+        <!-- JS inyecta aquí -->
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <small>Hecho con ♥ en JS DOM</small>
+    </footer>
+  </body>
+</html>
