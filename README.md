@@ -7,7 +7,6 @@ Incluye **búsqueda**, **filtros** (vendedor, estrellas), **orden por precio** y
 - Render de tarjetas desde un **array de objetos** (`products`) con `template literals`.
 - Filtros vivos: **vendedor**, **estrellas mín.**, **orden precio**.
 - **Buscador** por nombre en tiempo real.
-- **Placeholder** automático si una imagen falla (PNG/JPG roto).
 - Diseño **responsive** (grid + media queries), **hover** y dark theme.
 
 ## 🧩 Tecnologías
